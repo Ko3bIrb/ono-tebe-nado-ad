@@ -1,6 +1,7 @@
 *,
 *::before,
 *::after {
+<<<<<<< HEAD
     box-sizing: border-box;
 }
 
@@ -19,6 +20,15 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
     background-color: #fff;
+=======
+  box-sizing: border-box;
+}
+
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+>>>>>>> 5ffec703a9a64785916d884c1c9539a490632f56
 }
 
 h1,
@@ -32,6 +42,7 @@ ul,
 ol,
 li,
 blockquote {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
 }
@@ -55,4 +66,20 @@ button {
 
 address {
     font-style: normal;
+=======
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font: inherit;
+>>>>>>> 5ffec703a9a64785916d884c1c9539a490632f56
 }
